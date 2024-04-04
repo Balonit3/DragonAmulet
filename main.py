@@ -25,6 +25,6 @@ kislota_drakon.strike(knight)
 
 
 '''
-Я типо тут работаю
+
 
 '''
