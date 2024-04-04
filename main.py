@@ -22,3 +22,9 @@ kislota_drakon.print_info()
 #бой Ричарда с viper
 knight.strike(kislota_drakon)
 kislota_drakon.strike(knight)
+
+
+'''
+Я типо тут работаю
+
+'''
