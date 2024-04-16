@@ -1,4 +1,4 @@
-from hero import Hero, start_history, Enemy, Gost,NPC
+from hero import Hero, start_history, Enemy, Gost, NPC, act1, act2
 
 knight = Hero('Ричард', 90, 60, 75, 'меч')
 dragon = Hero('Беззубик', 200, 150, 110, 'огонь')
@@ -9,11 +9,16 @@ gost = Gost('Каспер', 180, 180, 180, 'эктоплазма', 'крик')
 
 blacksmith = NPC('Кузнец Валера', 'Болтовня')
 
-
+start_history()
 knight.print_info()
-blacksmith.repair(knight)
+act1()
+gnom.print_info()
+finish = knight.is_attack(gnom)
+knight.lvl_up()
 
-knight.print_info()
+if finish:
+    act2()
+    kintavr.print_info()
 
 # kislota_drakon.print_info()
 # kislota_drakon.apply_skill()
