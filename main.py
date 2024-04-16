@@ -1,4 +1,6 @@
-from hero import Hero, start_history, Enemy, Gost, NPC, act1, act2
+from hero import (Hero, start_history,
+                  Enemy, Gost, NPC,
+                  act1, act2, act3)
 
 knight = Hero('Ричард', 90, 60, 75, 'меч')
 dragon = Hero('Беззубик', 200, 150, 110, 'огонь')
@@ -19,7 +21,9 @@ knight.lvl_up()
 if finish:
     act2()
     kintavr.print_info()
-
+    knight.armor -= 65
+    knight.print_info()
+    act3()
 # kislota_drakon.print_info()
 # kislota_drakon.apply_skill()
 #
