@@ -193,22 +193,33 @@ def act1():
 def act2():
     print(bordered('Он не растерялся и с помощью своего меча отрубил 3 головы сразу.', color_code_red))
     # sleep(2)
-    print(bordered('После этой непростой битвы он решил расслабиться и пойти в бар к кeнтавру Джо.', color_code_green))
-    # sleep(2)
-    print(bordered('Но по скольку этот лес не простой вместо желанной бутылочки пивчанского он получил суровый бой.',
-                   color_code_green))
-    # sleep(2)
-    print(bordered('Джо не обладал сверх навыками но был готов дать отпор Ричарду за свой божественный напиток ',
-                   color_code_green))
-
-
+    print(bordered('после этой битвы Ричард очень устал.',color_code_green))
     sleep(2)
+    print(bordered('и подумал что в этом лесу обязательно должно быть какое то заведение для отдыха.',color_code_green))
+    sleep(2)
+    print(bordered(' И спустя пол часа скитаний он наткнулся на подпольное казино гномов.',color_code_green))
+    sleep(2)
+    print(bordered(' Но оттуда его выгнали ведь он был выше назначенного роста, а именно 80 см.',color_code_green))
+    sleep(2)
+    print(bordered('И тогда Ричард в отчаянии пошёл дальше, но вдруг удача ему улыбнулась и он увидел издалека бар.',color_code_green))
+    sleep(2)
+    print(bordered('Подойдя поближе он увидел что это бар кинтавра Джо.',color_code_green))
+    sleep(2)
+    print(bordered('Но цены на пивчанский не устроили Ричарда и он решил затеить драку с Джо.',color_code_red))
+    sleep(2)
+    print(bordered('Джо конечно был не опытным бойцом но отдавать просто так свой напиток не хотел.',color_code_green))
+    sleep(2)
+    print(bordered('И по итогу Ричард хоть и потерял чуть здоровья но выйграл этот бой.',color_code_red))
+    sleep(2)
+
+
+
 def act3():
-    print(bordered('После этой схватки у Ричардо появился новый предмет как ПИВО,', color_code_green))
+    print(bordered('После этой схватки у Ричардо появился новый предмет как ПИВО,', color_code_yellow))
     sleep(2)
     print(bordered(
         'это было зелье исцеление которое он мог выпить в любой следующей битве что бы восполнить своё здоровье ',
-        color_code_green))
+        color_code_yellow))
     sleep(2)
     print(bordered('Позже он двинулся на север в сторону города под названием АНОР ЛОНДО.', color_code_green))
     sleep(2)
