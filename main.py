@@ -1,6 +1,7 @@
 from hero import (Hero, start_history,
                   Enemy, Gost, NPC,
-                  act1, act2, act3)
+                  act1, act2, act3, act4,
+                  viper_pivo)
 
 knight = Hero('Ричард', 90, 60, 75, 'меч')
 dragon = Hero('Беззубик', 200, 150, 110, 'огонь')
@@ -21,23 +22,21 @@ knight.lvl_up()
 if finish:
     act2()
     kintavr.print_info()
-    knight.armor -= 65
+    kintavr.strike(knight)
+    knight.armor -= 40
     knight.print_info()
+
     act3()
-# kislota_drakon.print_info()
-# kislota_drakon.apply_skill()
-#
+
+    act4()
+    kislota_drakon.print_info()
+    viper_pivo()
+    kislota_drakon.apply_skill()
+
+
 # gost.print_info()
 # gost.invisible()
 
-# # знакомство с Ричардом
-# knight.print_info()
-# start_history()
-# # появление тройняшек(гномов)
-# gnom.print_info()
-# # битва тройняшек с Ричардом
-# gnom.strike(knight)
-# knight.strike(gnom)
 # # знакомство с Джо(кинтавр)
 # kintavr.print_info()
 # # бой Джо с Ричардом
