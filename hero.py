@@ -19,6 +19,11 @@ class Hero:
         self.armor = armor
         self.power = power
         self.weapon = weapon
+    def viper_pivo(self,):
+        self.health += 60
+        print(self.name, 'восполнил себе здоровье')
+        print('теперь уровень здоровья героя - ', self.health)
+
 
     def lvl_up(self):
         self.health += 10
@@ -122,10 +127,7 @@ class NPC:
 
         print(self.name, 'Починил броню героя, теперь урвень брони составляет', hero.armor)
 
-    def viper_pivo(self, hero):
-        hero.health += 60
-        print(hero.name, 'восполнил себе здоровье')
-        print('теперь уровень здоровья героя - ', hero.health)
+
 
 
 class Enemy(Hero):
