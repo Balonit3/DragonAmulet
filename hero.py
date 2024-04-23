@@ -14,7 +14,8 @@ def bordered(text, color_code):
 
 
 class Hero:
-    def __init__(self, name, health, armor, power_min, power_max, weapon):
+    def __init__(self, name, health, armor, power_min, power_max, weapon, weapon_health):
+        self.weapon_health = weapon_health
         self.name = name
         self.health = health
         self.armor = armor
@@ -255,6 +256,7 @@ def act5():
         bordered('И вот после починки меча Ричард двинулся в путь, а именно в Склеп Великанов,там и обитал МЕТАФОРОН.',
                  color_code_green))
     sleep(2)
+def act6():
     print(bordered('И спустя неделю пути он видит тот самый Склеп.', color_code_green))
     sleep(2)
     print(bordered('В котором через туман виднеется огромная рука МЕТАФОРОНА. ', color_code_red))
