@@ -1,7 +1,7 @@
 from hero import (Hero, start_history,
                   Enemy, Gost, NPC,
                   act1, act2, act3, act4,
-                  act4_1,act5)
+                  act4_1, act5)
 
 knight = Hero('Ричард', 90, 60, 30, 75, 'меч')
 dragon = Hero('Беззубик', 200, 150, 50, 110, 'огонь')
@@ -31,4 +31,3 @@ if finish:
     kislota_drakon.apply_skill()
     knight.viper_pivo()
     act5()
-
